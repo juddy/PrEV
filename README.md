@@ -62,26 +62,27 @@ Required:
 - The SDL library v2.0.3 or later (http://www.libsdl.org)
 - The zlib compression library (http://www.gzip.org/zlib/)
 
-
 Don't forget to also install the header files of these libraries for compiling
 Previous (some Linux distributions use separate development packages for these
 header files)!
 
-For compiling Previous, you need a C compiler (preferably GNU C), and a working
+To compile Previous, you need a C compiler (preferably GNU C), and a working
 CMake installation (see http://www.cmake.org/ for details).
 
 CMake can generate makefiles for various flavors of "Make" (like GNU-Make)
 and various IDEs like Xcode on Mac OS X. To run CMake, you've got to pass the
 path to the sources of Previous as parameter, for example run the following if
 you are in the topmost directory of the Previous source tree:
-	cmake .
+	
+    cmake .
 
 If you're tracking Previous version control, it's preferable to do
 the build in a separate build directory as above would overwrite
 the (non-CMake) Makefiles coming with Previous:
-	mkdir -p build
-	cd build
-	cmake ..
+
+    mkdir -p build
+    cd build
+    cmake ..
 
 Have a look at the manual of CMake for other options. Alternatively, you can
 use the "cmake-gui" program to configure the sources with a graphical
@@ -96,6 +97,7 @@ the src/ subdirectory of the build tree.
  ---------
 
 Previous is still work in progress. Some hardware is not yet emulated:
+
 CPU		good
 MMU		good
 FPU		good
