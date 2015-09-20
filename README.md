@@ -4,18 +4,7 @@ This is a fork of the 'Previous' emulator.
 
 ## Previous, an emulator
 
-* [About][2]
-* [News][3]
-* [Source code][4]
-* [build][5]
-* [Download][6]
-* [Docs][7]
-
-### Search
-
-Home
-
-Previous is a Next computer hardware emulator. It aims to emulate a Next Cube or a Next Station with all its peripherals.
+Previous is a NeXT computer hardware emulator. It aims to emulate a Next Cube or a Next Station with all its peripherals.
 
 The emulator is not complete yet.
 
