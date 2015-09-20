@@ -99,26 +99,48 @@ the src/ subdirectory of the build tree.
 Previous is still work in progress. Some hardware is not yet emulated:
 
 CPU		good
+
 MMU		good
+
 FPU		good
+
 DSP		buggy
+
 DMA		good
+
 NextBus		missing
+
+
 Memory		good
+
 2-bit graphics	good
+
 Color graphics	good
+
 RTC		good
+
 Timers		buggy
+
 SCSI drive	good
+
 MO drive	good (single drive)
+
 Floppy drive	good
+
 Ethernet	good
+
 Serial		dummy
+
 Printer		missing
+
 Sound		partial (no microphone)
+
 Keyboard	good
+
 Mouse		good
+
 ADB		dummy
+
 Nitro		dummy
 
 
